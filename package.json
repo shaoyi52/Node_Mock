@@ -1,0 +1,42 @@
+{
+  "name": "mock_demo",
+  "version": "1.0.0",
+  "description": "koa,typeScript,faker",
+  "main": "mock.js",
+  "scripts": {
+    "test": "ts-node-dev mock.ts"
+  },
+  "keywords": [
+    "node",
+    "mock"
+  ],
+  "author": "yzf",
+  "license": "ISC",
+  "dependencies": {
+    "@types/faker": "^5.1.5",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "chalk": "^4.1.0",
+    "faker": "^5.1.0",
+    "fs": "0.0.1-security",
+    "koa": "^2.13.4",
+    "koa-body": "^5.0.0",
+    "koa-cors": "0.0.16",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^10.1.1",
+    "log4js": "^6.4.6",
+    "path": "^0.12.7",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8",
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.4",
+    "@types/koa-logger": "^3.1.2",
+    "@types/koa-router": "^7.4.4",
+    "@types/koa2-cors": "^2.0.2",
+    "koa2-cors": "^2.0.6"
+  }
+}
